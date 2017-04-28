@@ -37,7 +37,7 @@ Config example:
 
 Create new:    zabbix2grafana.py -c config.yml -id 33
 
-Update exists: zabbix2grafana.py -c config.yml -id 33 -ip
+Update exists: zabbix2grafana.py -c config.yml -id 33 -up
 
 -c  - config file
 
