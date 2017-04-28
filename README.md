@@ -24,3 +24,5 @@ Config example:
         "api_key": "GRAFANA_KEY"
     }
 }
+
+./zabbix2grafana.py -c config.yml -id 33
