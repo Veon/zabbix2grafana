@@ -25,4 +25,9 @@ Config example:
     }
 }
 
-./zabbix2grafana.py -c config.yml -id 33
+Create new:    zabbix2grafana.py -c config.yml -id 33
+Update exists: zabbix2grafana.py -c config.yml -id 33 -ip
+
+-c  - config file
+-id - zabbix screen ID
+-up - update dashbord ( remove, create new )
