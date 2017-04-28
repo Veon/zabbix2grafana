@@ -14,15 +14,25 @@ The order of charts is not copied
 Config example:
 
 {
+
     "zabbix": {
+    
         "url": "http://zabbix.example.com",
+        
         "login": "LOGIN",
+        
         "password": "PASSWORD"
+        
     },
+    
     "grafana": {
+    
         "url": "http://zabbix.example.com:3000",
+        
         "api_key": "GRAFANA_KEY"
+        
     }
+    
 }
 
 Create new:    zabbix2grafana.py -c config.yml -id 33
