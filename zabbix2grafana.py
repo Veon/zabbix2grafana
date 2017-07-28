@@ -14,7 +14,7 @@ parser.add_argument('-c', '--config', type=str, help="Path to config file", defa
 parser.add_argument('-sid', '--screen_id', type=int, help="Zabbix screen ID", required=False)
 parser.add_argument('-up', '--update', action='store_true', help="Delete dashboard before create - update")
 args = parser.parse_args()
-print args
+
 if args.screen_id != None:
     zabbix_screen_id = args.screen_id
 else:
