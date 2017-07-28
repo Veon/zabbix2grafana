@@ -11,7 +11,7 @@ config = ""
 
 parser = argparse.ArgumentParser(prog='zabbix2grafana')
 parser.add_argument('-c', '--config', type=str, help="Path to config file", default="./config.yml", required=True)
-parser.add_argument('-id', '--screen_id', type=int, help="Zabbix screen ID", required=True)
+parser.add_argument('-sid', '--screen_id', type=int, help="Zabbix screen ID", required=False)
 parser.add_argument('-up', '--update', action='store_true', help="Delete dashboard before create - update")
 args = parser.parse_args()
 print args
